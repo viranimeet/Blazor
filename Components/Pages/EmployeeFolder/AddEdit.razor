@@ -1,0 +1,100 @@
+﻿@page "/add"
+@page "/edit/{EmployeeId:int}"
+@using EmployeeManagement.Web.Data.Models
+@using EmployeeManagement.Web.Services
+@inject DepartmentService DepartmentService
+@inject FileUploadService FileUploadService
+@inject EmployeeService EmployeeService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@rendermode InteractiveServer
+
+@inherits AddEditBase
+
+<h3>@Title</h3>
+
+<EditForm Model="@employee" OnValidSubmit="HandleValidSubmit" FormName="employeeForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="firstName">First Name: *</label>
+        <InputText id="firstName" @bind-Value="employee.FirstName" class="form-control" />
+        <ValidationMessage For="@(() => employee.FirstName)" />
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name: *</label>
+        <InputText id="lastName" @bind-Value="employee.LastName" class="form-control" />
+        <ValidationMessage For="@(() => employee.LastName)" />
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email: *</label>
+        <InputText id="email" @bind-Value="employee.Email" class="form-control" />
+        <ValidationMessage For="@(() => employee.Email)" />
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone:</label>
+        <InputText id="phone" @bind-Value="employee.Phone" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Gender:</label>
+        <div>
+            <InputRadioGroup @bind-Value="employee.Gender">
+                <InputRadio Value="@("Male")" /> Male &nbsp;
+                <InputRadio Value="@("Female")" /> Female &nbsp;
+                <InputRadio Value="@("Other")" /> Other
+            </InputRadioGroup>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <InputDate id="dob" @bind-Value="employee.DateOfBirth" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="department">Department: *</label>
+        <InputSelect id="department" @bind-Value="employee.DepartmentId" class="form-control">
+            <option value="">Select Department</option>
+            @foreach (var dept in departments)
+            {
+                <option value="@dept.DepartmentId">@dept.DepartmentName</option>
+            }
+        </InputSelect>
+        @if (departments == null || !departments.Any())
+        {
+            <p class="text-danger">No departments available. Please add departments first.</p>
+        }
+        <ValidationMessage For="@(() => employee.DepartmentId)" />
+    </div>
+
+    <div class="form-group form-check">
+        <InputCheckbox id="isActive" @bind-Value="employee.IsActive" class="form-check-input" />
+        <label class="form-check-label" for="isActive">Is Active</label>
+    </div>
+
+    <div class="form-group">
+        <label for="aadhar">Aadhar Card:</label>
+        <InputFile id="aadhar" OnChange="@HandleFileUpload" class="form-control" />
+        @if (!string.IsNullOrEmpty(employee.AadharPath))
+        {
+            <div class="mt-2">
+                <a href="@employee.AadharPath" target="_blank">View Current Aadhar</a>
+            </div>
+        }
+    </div>
+
+    <div class="form-group form-check">
+        <InputCheckbox id="terms" @bind-Value="employee.TermsAccepted" class="form-check-input" />
+        <label class="form-check-label" for="terms">Accept Terms and Conditions</label>
+        <ValidationMessage For="@(() => employee.TermsAccepted)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+</EditForm>

@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EmployeeManagement.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmployeeManagement.Web.y73bj8d5ge.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\25062025-revised-key-dates-degree-engine.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\25062025-revised-key-dates-degree-engine.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\Copy  Time Table V2 (sem 1,3 & 5).xlsx - Time TABLE 1 3 5 (2) (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\Copy  Time Table V2 (sem 1,3 & 5).xlsx - Time TABLE 1 3 5 (2) (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\Employee Time Ledger 08-07-2025 (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\Employee Time Ledger 08-07-2025 (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\Employee Time Ledger 24-06-2025.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\Employee Time Ledger 24-06-2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\Employee Time Ledger 25-06-2025.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\Employee Time Ledger 25-06-2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\MH1104_1.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\MH1104_1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\c40da683-481c-4ddf-be03-f154cc7bd702_2.png",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\c40da683-481c-4ddf-be03-f154cc7bd702_2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\EmployeeManagement.Web11-07-2025\\EmployeeManagement.Web\\EmployeeManagement.Web\\wwwroot\\uploads\\aadhar\\ilovepdf_merged.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aadhar\\ilovepdf_merged.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmployeeManagement.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmployeeManagement.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EmployeeManagement.Web.props",
+      "PackagePath": "build\\EmployeeManagement.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeManagement.Web.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeManagement.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmployeeManagement.Web.props",
+      "PackagePath": "buildTransitive\\EmployeeManagement.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

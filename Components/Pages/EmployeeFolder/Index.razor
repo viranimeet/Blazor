@@ -1,0 +1,128 @@
+﻿@page "/employees"
+@rendermode InteractiveServer
+@using EmployeeManagement.Web.Data.Models
+@using EmployeeManagement.Web.Services
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+@inject ProtectedSessionStorage SessionStorage
+
+@inject IJSRuntime JSRuntime
+
+<h3>Employee List</h3>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-2">
+                <label>Department</label>
+                <select class="form-control" @onchange="OnDepartmentChangedNative">
+                    <option value="">All Departments</option>
+                    @foreach (var dept in departments)
+                    {
+                        <option value="@dept">@dept</option>
+                    }
+                </select>
+
+            </div>
+
+            <div class="col-md-2">
+                <label>Team</label>
+                <InputSelect @bind-Value="selectedTeam" class="form-control">
+                    <option value="">Select Team</option>
+                    @foreach (var team in teams)
+                    {
+                        <option value="@team">@team</option>
+                    }
+                </InputSelect>
+            </div>
+
+            <div class="col-md-2">
+                <label>Gender</label>
+                <InputSelect @bind-Value="selectedGender" class="form-control">
+                    <option value="">All Genders</option>
+                    @foreach (var gender in genders)
+                    {
+                        <option value="@gender">@gender</option>
+                    }
+                </InputSelect>
+            </div>
+
+            <div class="col-md-2">
+                <label>Status</label>
+                <InputSelect @bind-Value="selectedStatus" class="form-control">
+                    <option value="">All Statuses</option>
+                    <option value="true">Active</option>
+                    <option value="false">Inactive</option>
+                </InputSelect>
+            </div>
+
+            <div class="col-md-4 d-flex align-items-end">
+                <button @onclick="ResetFilters" class="btn btn-secondary me-2">Reset</button>
+                <button @onclick="ApplyFilters" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-primary mb-3" @onclick="NavigateToAdd">
+    Add Employee
+</button>
+
+<button class="btn btn-primary mb-3" @onclick="NavigateToAddMany">
+    Add many Employee
+</button>
+
+
+@if (filteredEmployees == null || !filteredEmployees.Any())
+{
+    <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <div class="d-flex justify-content-between align-items-center">
+        <div>
+            Page @currentPage of @totalPages
+        </div>
+        <div>
+            <button class="btn btn-secondary btn-sm me-2" @onclick="PreviousPage" disabled="@(!CanPreviousPage)">Previous</button>
+            <button class="btn btn-secondary btn-sm" @onclick="NextPage" disabled="@(!CanNextPage)">Next</button>
+        </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th @onclick="() => SortBy(nameof(Employee.FirstName))">Name @GetSortIcon(nameof(Employee.FirstName))</th>
+                <th @onclick="() => SortBy(nameof(Employee.DepartmentName))">Department @GetSortIcon(nameof(Employee.DepartmentName))</th>
+                <th @onclick="() => SortBy(nameof(Employee.Email))">Email @GetSortIcon(nameof(Employee.Email))</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in filteredEmployees)
+            {
+                <tr>
+                    <td>
+                        <a @onclick="() => ViewEmployee(emp.EmployeeId)"
+                           style="cursor:pointer; text-decoration:underline; color:blue;">
+                            @emp.FirstName @emp.LastName
+                        </a>
+                    </td>
+
+                    <td>@emp.DepartmentName</td>
+                    <td>@emp.Email</td>
+                    <td>
+                        <button @onclick="() => EditEmployee(emp.EmployeeId)" class="btn btn-primary btn-sm">Edit</button>
+                        <button @onclick="() => DeleteEmployee(emp.EmployeeId)" class="btn btn-danger btn-sm">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@if (selectedEmployee != null)
+{
+    <ViewEmployee EmployeeId="selectedEmployee.EmployeeId" OnClose="CloseView" />
+}

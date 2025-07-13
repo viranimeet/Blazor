@@ -1,0 +1,208 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/app.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2591"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/app.da95v2qkru.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"da95v2qkru"},{"Name":"integrity","Value":"sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="},{"Name":"label","Value":"_content/EmployeeManagement.Web/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2591"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/bootstrap/bootstrap.min.bpk8xqwxhs.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bootstrap\bootstrap.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bpk8xqwxhs"},{"Name":"integrity","Value":"sha256-z8OR40MowJ8GgK6P89Y\u002BhiJK5\u002BcclzFHzLhFQLL92bg="},{"Name":"label","Value":"_content/EmployeeManagement.Web/bootstrap/bootstrap.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"162720"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022z8OR40MowJ8GgK6P89Y\u002BhiJK5\u002BcclzFHzLhFQLL92bg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/bootstrap/bootstrap.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bootstrap\bootstrap.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z8OR40MowJ8GgK6P89Y\u002BhiJK5\u002BcclzFHzLhFQLL92bg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"162720"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022z8OR40MowJ8GgK6P89Y\u002BhiJK5\u002BcclzFHzLhFQLL92bg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/bootstrap/bootstrap.min.css.8inm30yfxf.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bootstrap\bootstrap.min.css.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8inm30yfxf"},{"Name":"integrity","Value":"sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="},{"Name":"label","Value":"_content/EmployeeManagement.Web/bootstrap/bootstrap.min.css.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"449111"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/bootstrap/bootstrap.min.css.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bootstrap\bootstrap.min.css.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"449111"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/EmployeeManagement.Web.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EmployeeManagement.Web.y73bj8d5ge.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8vfYvtDWvFiodujtYsqQdhTFibdURQJFTSF3cuWXCkM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5927"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228vfYvtDWvFiodujtYsqQdhTFibdURQJFTSF3cuWXCkM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/EmployeeManagement.Web.y73bj8d5ge.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EmployeeManagement.Web.y73bj8d5ge.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y73bj8d5ge"},{"Name":"integrity","Value":"sha256-8vfYvtDWvFiodujtYsqQdhTFibdURQJFTSF3cuWXCkM="},{"Name":"label","Value":"_content/EmployeeManagement.Web/EmployeeManagement.Web.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5927"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228vfYvtDWvFiodujtYsqQdhTFibdURQJFTSF3cuWXCkM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/favicon.ifv42okdf2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ifv42okdf2"},{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="},{"Name":"label","Value":"_content/EmployeeManagement.Web/favicon.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/favicon.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.hq07gpjiwk.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hq07gpjiwk"},{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\1ca21729-1cb9-48cd-b644-f41d0158cbaa_Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/25062025-revised-key-dates-degree-engine.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\25062025-revised-key-dates-degree-engine.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wkQyC6uzU0FMBlZQSOoMo0cPudmoPzLzlGGgWbUPCXE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"192611"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022wkQyC6uzU0FMBlZQSOoMo0cPudmoPzLzlGGgWbUPCXE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/25062025-revised-key-dates-degree-engine.u5z7n4d364.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\25062025-revised-key-dates-degree-engine.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u5z7n4d364"},{"Name":"integrity","Value":"sha256-wkQyC6uzU0FMBlZQSOoMo0cPudmoPzLzlGGgWbUPCXE="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/25062025-revised-key-dates-degree-engine.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"192611"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022wkQyC6uzU0FMBlZQSOoMo0cPudmoPzLzlGGgWbUPCXE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.hq07gpjiwk.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hq07gpjiwk"},{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\5dfd834c-6271-402d-8aed-85710b9ed7b3_Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.mk6o6ytefo.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mk6o6ytefo"},{"Name":"integrity","Value":"sha256-RhUA6/CdrKgYG5W1ADvJn1LUK9sZXZAApKw9ctPqiUA="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136805"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022RhUA6/CdrKgYG5W1ADvJn1LUK9sZXZAApKw9ctPqiUA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\60810cd0-3edc-47bc-a397-9da875e7e609_Employee Time Ledger 23-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RhUA6/CdrKgYG5W1ADvJn1LUK9sZXZAApKw9ctPqiUA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"136805"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022RhUA6/CdrKgYG5W1ADvJn1LUK9sZXZAApKw9ctPqiUA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.hq07gpjiwk.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hq07gpjiwk"},{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\63cc35fa-0879-408d-9c2a-66b35bb4fd1f_Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/c40da683-481c-4ddf-be03-f154cc7bd702_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\c40da683-481c-4ddf-be03-f154cc7bd702_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tcTudopFjfMGgi2YgW4vqxzpPa3lKL1KpqdhXHBcWv0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"312117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tcTudopFjfMGgi2YgW4vqxzpPa3lKL1KpqdhXHBcWv0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/c40da683-481c-4ddf-be03-f154cc7bd702_2.pzvba59t4e.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\c40da683-481c-4ddf-be03-f154cc7bd702_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pzvba59t4e"},{"Name":"integrity","Value":"sha256-tcTudopFjfMGgi2YgW4vqxzpPa3lKL1KpqdhXHBcWv0="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/c40da683-481c-4ddf-be03-f154cc7bd702_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"312117"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tcTudopFjfMGgi2YgW4vqxzpPa3lKL1KpqdhXHBcWv0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Copy  Time Table V2 (sem 1,3 &amp; 5).xlsx - Time TABLE 1 3 5 (2) (1).b714h0uojj.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Copy  Time Table V2 (sem 1,3 &amp; 5).xlsx - Time TABLE 1 3 5 (2) (1).pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b714h0uojj"},{"Name":"integrity","Value":"sha256-6Y\u002BQLDWwvwvPxGl2wIN0TgvmXFAqot0LT\u002BioKFkSj/4="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/Copy  Time Table V2 (sem 1,3 \u0026 5).xlsx - Time TABLE 1 3 5 (2) (1).pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28108"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00226Y\u002BQLDWwvwvPxGl2wIN0TgvmXFAqot0LT\u002BioKFkSj/4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Copy  Time Table V2 (sem 1,3 &amp; 5).xlsx - Time TABLE 1 3 5 (2) (1).pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Copy  Time Table V2 (sem 1,3 &amp; 5).xlsx - Time TABLE 1 3 5 (2) (1).pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6Y\u002BQLDWwvwvPxGl2wIN0TgvmXFAqot0LT\u002BioKFkSj/4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"28108"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00226Y\u002BQLDWwvwvPxGl2wIN0TgvmXFAqot0LT\u002BioKFkSj/4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 08-07-2025 (1).bmx1gmdwbk.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Employee Time Ledger 08-07-2025 (1).pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bmx1gmdwbk"},{"Name":"integrity","Value":"sha256-jadDbD7VmsCYviTExss1nVmXricSfd2NJkBm7mRlNn4="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 08-07-2025 (1).pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"126286"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022jadDbD7VmsCYviTExss1nVmXricSfd2NJkBm7mRlNn4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 08-07-2025 (1).pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Employee Time Ledger 08-07-2025 (1).pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jadDbD7VmsCYviTExss1nVmXricSfd2NJkBm7mRlNn4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"126286"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022jadDbD7VmsCYviTExss1nVmXricSfd2NJkBm7mRlNn4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 24-06-2025.hq07gpjiwk.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hq07gpjiwk"},{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 24-06-2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 24-06-2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Employee Time Ledger 24-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"136724"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022hzxoUd8wu3OThRSEc3XWqteMIl3cgL7zZrzepJI82fI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 25-06-2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Employee Time Ledger 25-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HI\u002BoM1Bi/X41ga8sen3TugBbUAFkCh6NilXMdvvkb/s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"136814"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022HI\u002BoM1Bi/X41ga8sen3TugBbUAFkCh6NilXMdvvkb/s=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 25-06-2025.sslv7u7srf.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\Employee Time Ledger 25-06-2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sslv7u7srf"},{"Name":"integrity","Value":"sha256-HI\u002BoM1Bi/X41ga8sen3TugBbUAFkCh6NilXMdvvkb/s="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/Employee Time Ledger 25-06-2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"136814"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022HI\u002BoM1Bi/X41ga8sen3TugBbUAFkCh6NilXMdvvkb/s=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/ilovepdf_merged.o3d500rsy5.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\ilovepdf_merged.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o3d500rsy5"},{"Name":"integrity","Value":"sha256-lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/ilovepdf_merged.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"85463"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/ilovepdf_merged.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\ilovepdf_merged.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"85463"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/MH1104_1.o3d500rsy5.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\MH1104_1.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o3d500rsy5"},{"Name":"integrity","Value":"sha256-lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo="},{"Name":"label","Value":"_content/EmployeeManagement.Web/uploads/aadhar/MH1104_1.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"85463"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmployeeManagement.Web/uploads/aadhar/MH1104_1.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aadhar\MH1104_1.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"85463"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022lIHPjogHUccuD86tbk7A5rS3dAlIoZgWVa1iUi4bDbo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Jul 2025 06:43:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

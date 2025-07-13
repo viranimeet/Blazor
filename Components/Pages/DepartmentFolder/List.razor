@@ -1,0 +1,46 @@
+﻿@page "/departments"
+@rendermode InteractiveServer
+@using EmployeeManagement.Web.Data.Models
+@using EmployeeManagement.Web.Services
+
+<h3>Department List</h3>
+
+<button class="btn btn-primary mb-3" @onclick="NavigateToAdd">
+    Add Department
+</button>
+
+@if (department == null || !department.Any())
+{
+    <div class="alert alert-info">No departments found.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Deaprtment Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dept in department)
+            {
+                <tr>
+                    <td>@dept.DepartmentName</td>
+                    <td>@dept.Description</td>
+                    <td>
+                        <button @onclick="() => ViewDepartment(dept.DepartmentId)" class="btn btn-sm btn-info">View</button>
+                        <button @onclick="() => EditDepartment(dept.DepartmentId)" class="btn btn-sm btn-primary">Edit</button>
+                        <button @onclick="() => DeleteDepartment(dept.DepartmentId)" class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (showView && selectedDepartmentId.HasValue)
+{
+    <DepartmentView DepartmentId="@selectedDepartmentId.Value" OnClose="CloseView" />
+}
