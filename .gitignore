@@ -1,0 +1,40 @@
+# Ignore build results
+bin/
+obj/
+out/
+wwwroot/css/
+wwwroot/js/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache and logs
+.vs/
+.vscode/
+*.log
+
+# ASP.NET secrets
+secrets.json
+
+# Environment-specific settings
+appsettings.Development.json
+
+# Aadhaar uploads - ignore contents but keep folder
+wwwroot/upload/aadhar/*
+!wwwroot/upload/aadhar/.gitkeep
+
+# Optional: ignore publish settings
+Properties/PublishProfiles/
+
+# Ignore IDE configs
+.idea/
+*.ncrunch*
+*.resharper
+*.DotSettings.user
+
+# Ignore node_modules (if you’re using JS/npm packages)
+node_modules/
+
